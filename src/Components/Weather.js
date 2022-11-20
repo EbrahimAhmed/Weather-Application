@@ -16,10 +16,7 @@ export default function Weather(props) {
         {props.country && <p className='info_key'>City : <span className='info_value'>{props.city}</span></p>}
 
         {props.error &&  <p className='info_key'>Warning : <span className='info_value'>{props.error}</span></p>}
-       
-       
-        
-        
+
     </div>
   )
 }
